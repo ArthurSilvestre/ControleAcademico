@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>br.unipe.javaweb.controleacademico.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/logar</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>CreateCursoServlet</servlet-name>
+    <servlet-class>br.unipe.javaweb.controleacademico.servlet.CreateCursoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CreateCursoServlet</servlet-name>
+    <url-pattern>/createcurso</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ReadCursoServlet</servlet-name>
+    <servlet-class>br.unipe.javaweb.controleacademico.servlet.ReadCursoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReadCursoServlet</servlet-name>
+    <url-pattern>/readcurso</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>UpdateCursoServlet</servlet-name>
+    <servlet-class>br.unipe.javaweb.controleacademico.servlet.UpdateCursoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateCursoServlet</servlet-name>
+    <url-pattern>/updatecurso</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>DeleteCursoServlet</servlet-name>
+    <servlet-class>br.unipe.javaweb.controleacademico.servlet.DeleteCursoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteCursoServlet</servlet-name>
+    <url-pattern>/deletecurso</url-pattern>
+  </servlet-mapping>  
+  
+  <servlet>
+    <servlet-name>CreateDisciplinaServlet</servlet-name>
+    <servlet-class>br.unipe.javaweb.controleacademico.servlet.CreateDisciplinaServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CreateDisciplinaServlet</servlet-name>
+    <url-pattern>/createdisciplina</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ReadDisciplinaServlet</servlet-name>
+    <servlet-class>br.unipe.javaweb.controleacademico.servlet.ReadDisciplinaServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReadDisciplinaServlet</servlet-name>
+    <url-pattern>/readdisciplina</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>UpdateDisciplinaServlet</servlet-name>
+    <servlet-class>br.unipe.javaweb.controleacademico.servlet.UpdateDisciplinaServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateDisciplinaServlet</servlet-name>
+    <url-pattern>/updatedisciplina</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>DeleteDisciplinaServlet</servlet-name>
+    <servlet-class>br.unipe.javaweb.controleacademico.servlet.DeleteDisciplinaServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteDisciplinaServlet</servlet-name>
+    <url-pattern>/deletedisciplina</url-pattern>
+  </servlet-mapping>  
+
+  <servlet>
+    <servlet-name>CreateProfessorServlet</servlet-name>
+    <servlet-class>br.unipe.javaweb.controleacademico.servlet.CreateProfessorServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CreateProfessorServlet</servlet-name>
+    <url-pattern>/createprofessor</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ReadProfessorServlet</servlet-name>
+    <servlet-class>br.unipe.javaweb.controleacademico.servlet.ReadProfessorServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReadProfessorServlet</servlet-name>
+    <url-pattern>/readprofessor</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>UpdateProfessorServlet</servlet-name>
+    <servlet-class>br.unipe.javaweb.controleacademico.servlet.UpdateProfessorServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateProfessorServlet</servlet-name>
+    <url-pattern>/updateprofessor</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>DeleteProfessorServlet</servlet-name>
+    <servlet-class>br.unipe.javaweb.controleacademico.servlet.DeleteProfessorServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteProfessorServlet</servlet-name>
+    <url-pattern>/deleteprofessor</url-pattern>
+  </servlet-mapping>  
+  
+</web-app>
